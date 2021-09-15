@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="utf-8">
+    <title> Formulário</title>
+<style> 
+ body{
+     background-color: black;
+     margin: 0 auto;
+ }
+
+ .banner {
+     border: 2px solid white;
+     height: 80px;
+     font-size: 50px;
+     text-align: center;
+     color: black;
+     background-color: cornflowerblue;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }
+p {
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 30px;
+    padding-left: 105px;
+    padding-right: 75px;
+}
+h1 {
+    text-decoration: underline;  
+    font-family: verdana;
+    font-size: 30px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.conteudo {
+    border: 2px solid white;
+    
+}
+
+.div {
+    border: 2px solid white;
+}
+
+#principal {
+    border: 2px solid white;
+    background-color: wheat;
+    width: 1000px;
+    align-content: center;
+    box-align: center;
+    margin: 0 auto;
+}
+
+ .button{
+    margin:0 0 10px 0;
+    top:10px;
+    left:250px;
+    width:100px;
+    position: relative;
+ }
+    
+
+</style>
+</head>
+<body>
+     <div id="principal">
+            <div class="banner">
+         <h1> Formulário</h1>
+     </div>
+
+
+    <div class="conteudo">
+   
+    
+         <p>
+           <b>Nome completo</b>
+           <input type="Textarea" name="Nome" size="70">
+         </p> 
+          
+         <p>
+            <b>E-mail</b>
+            <input type="Textarea" name="Nome" size="80">
+         </p> 
+         
+         <p>
+             <b> Sexo </b>
+             <input type="radio" name="sexo" value="Masculino"> Masculino
+             <input type="radio" name="sexo" value="Feminino">   Feminino
+         </p> 
+                
+         <p>
+             <b> Rua </b> 
+             <input type="Textarea" name="Rua" size="80">
+         </p>
+
+         <p>
+                <b> Bairro </b> 
+                <input type="Textarea"  name="Bairro" size="80">
+            </p>         
+
+         <p>
+                <b> Cidade </b> 
+                <input type="textarea" name="Cidade" size="80">
+         </p>
+
+         <p>
+          <b> Estado </b> 
+             <select>
+                     
+                <option value="ac">Acre</option> 
+                <option value="al">Alagoas</option> 
+                <option value="am">Amazonas</option> 
+                <option value="ap">Amapá</option> 
+                <option value="ba">Bahia</option> 
+                <option value="ce">Ceará</option> 
+                <option value="df">Distrito Federal</option> 
+                <option value="es">Espírito Santo</option> 
+                <option value="go">Goiás</option> 
+                <option value="ma">Maranhão</option> 
+                <option value="mt">Mato Grosso</option> 
+                <option value="ms">Mato Grosso do Sul</option> 
+                <option value="mg">Minas Gerais</option> 
+                <option value="pa">Pará</option> 
+                <option value="pb">Paraíba</option> 
+                <option value="pr">Paraná</option> 
+                <option value="pe">Pernambuco</option> 
+                <option value="pi">Piauí</option> 
+                <option value="rj">Rio de Janeiro</option> 
+                <option value="rn">Rio Grande do Norte</option> 
+                <option value="ro">Rondônia</option> 
+                <option value="rs">Rio Grande do Sul</option> 
+                <option value="rr">Roraima</option> 
+                <option value="sc">Santa Catarina</option> 
+                <option value="se">Sergipe</option> 
+                <option value="sp">São Paulo</option> 
+                <option value="to">Tocantins</option>
+            </select>                      
+            </p>
+        
+            <p>
+            Eu declaro ter preenchido os campos acima corretamente  <input type="checkbox" nome ="cbox" id="cbox"/>
+           </p>
+
+           <div class="button">
+            <p>
+                <input type="button" class="button" value="Enviar" />
+           </p>
+        </div>
+
+        </div>
+      
+</body>
